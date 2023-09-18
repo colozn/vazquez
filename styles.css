@@ -1,0 +1,186 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 80px;
+    margin-right: 20px; 
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    max-width: 20%;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+
+.destacados {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.producto {
+    margin-bottom: 40px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+}
+
+.producto h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-size: 20px;
+    color: #FF5733;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li {
+    margin-right: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.ropa {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.ropa h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.fila {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.columna {
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+}
+
+.columna h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.columna p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.columna .precio {
+    font-size: 18px;
+    color: #FF5733;
+}
+
+
